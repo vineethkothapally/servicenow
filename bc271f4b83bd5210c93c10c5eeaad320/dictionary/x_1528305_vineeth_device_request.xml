@@ -1,3 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="a2f8934783fd5210c93c10c5eeaad3f7" extends="task" label="Device Request" max_length="40" name="x_1528305_vineeth_device_request" type="collection"/>
+    <element db_object_id="a2f8934783fd5210c93c10c5eeaad3f7" extends="task" label="Device Request" max_length="40" name="x_1528305_vineeth_device_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Delivery Date" max_length="40" name="u_glide_date_4" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Requester" mandatory="true" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Warranty Expiration" max_length="40" name="u_string_10" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Quantity" max_length="40" name="u_string_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Quantity" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Device Description" max_length="40" name="u_string_8" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="u_string_9" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" max_length="20" name="u_price_7" read_only="true" type="price"/>
+        <element attributes="encode_utf8=false" label="Device Name" mandatory="true" max_length="32" name="u_reference_1" reference="x_1528305_vineeth_ai_devices" type="reference"/>
+    </element>
 </database>
