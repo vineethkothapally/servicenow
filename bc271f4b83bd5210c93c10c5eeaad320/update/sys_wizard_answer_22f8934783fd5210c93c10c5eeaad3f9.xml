@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Device Request</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Device Request</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">4c4cbf2af832021008dd9cfea425ac61</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-15 23:58:28</sys_created_on>
+        <sys_id>22f8934783fd5210c93c10c5eeaad3f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Device Request</sys_name>
+        <sys_package display_value="Vineeth_Testing" source="x_1528305_vineeth">bc271f4b83bd5210c93c10c5eeaad320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vineeth_Testing">bc271f4b83bd5210c93c10c5eeaad320</sys_scope>
+        <sys_update_name>sys_wizard_answer_22f8934783fd5210c93c10c5eeaad3f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-15 23:58:28</sys_updated_on>
+        <table/>
+        <target_url>x_1528305_vineeth_device_request.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

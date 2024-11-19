@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a2f8934783fd5210c93c10c5eeaad3f7" extends="task" label="Device Request" max_length="40" name="x_1528305_vineeth_device_request" type="collection"/>
+</database>
