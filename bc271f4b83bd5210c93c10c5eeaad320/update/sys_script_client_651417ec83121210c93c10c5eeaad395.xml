@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_reference_1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>show the section when we select devicena</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    if (!newValue == '') {
+        g_form.setSectionDisplay('device_details', 'true');
+        g_form.setSectionDisplay('delivery_details', 'true');
+
+        g_form.getReference('u_reference_1', getdetails);
+
+       
+    }
+
+    //Type appropriate comment here, and begin script below
+
+}
+function getdetails(details) {
+            g_form.setValue('u_price_7', details.u_price_1);
+            g_form.setValue('u_string_8', details.short_description);
+            g_form.setValue('u_string_9', details.model_number);
+            g_form.setValue('u_string_10', details.warranty_expiration);
+        }]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-03 01:48:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>651417ec83121210c93c10c5eeaad395</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>show the section when we select devicena</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Vineeth_Testing" source="x_1528305_vineeth">bc271f4b83bd5210c93c10c5eeaad320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vineeth_Testing">bc271f4b83bd5210c93c10c5eeaad320</sys_scope>
+        <sys_update_name>sys_script_client_651417ec83121210c93c10c5eeaad395</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-03 02:14:25</sys_updated_on>
+        <table>x_1528305_vineeth_device_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

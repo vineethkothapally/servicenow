@@ -29,7 +29,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>1000</max_length>
         <name>x_1528305_vineeth_device_request</name>
         <next_element/>
         <primary>false</primary>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Vineeth_Testing">bc271f4b83bd5210c93c10c5eeaad320</sys_scope>
         <sys_update_name>sys_dictionary_x_1528305_vineeth_device_request_u_string_8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-19 01:35:10</sys_updated_on>
+        <sys_updated_on>2024-12-03 03:19:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
